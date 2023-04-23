@@ -165,6 +165,22 @@ button{
 .btn:hover{
     color: var(--white);
 }
+
+
+/*-------------
+Header Section
+--------------*/
+.header .nav-toggler{
+    width: 50px;
+    height: 40px;
+    /* border: none;
+    cursor: pointer;
+    border-radius: 50%; */
+}
+
+
+
+
 /*---------Home Section----------*/
 .home-section{
     display: flex;
@@ -502,7 +518,7 @@ Contact Section
 .contact-info-item .social-links a:hover{
     color: var(--white);
     background-color: var(--main-color);
-    
+
 }
 
 
