@@ -1,3 +1,13 @@
+window.addEventListener("load", () => {
+    document.querySelector(".main").classList.remove("hidden");
+    document.querySelector(".home-section").classList.add("active");
+    //page loader
+    document.querySelector(".page-loader").classList.add("fade-out");
+    setTimeout(() =>{
+        document.querySelector(".page-loader").style.display = "none";
+    },1000);
+});
+
 /*-----Toggle Navbara------*/
 const navToggler = document.querySelector(".nav-toggler");
 navToggler.addEventListener("click", () => {
@@ -32,15 +42,6 @@ document.addEventListener("click", (e) =>{
         },500);
     }
 });
-
-
-
-
-
-
-
-
-
 
 /*-----About tabs------*/
 const tabsContainer = document.querySelector(".about-tabs"),
